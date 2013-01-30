@@ -9,6 +9,7 @@ This directory is a collection of notes taken when I learn something. All notes 
 - MySQL 5.5.29
 - Ruby 1.9.3
 - Git 1.7.10
+- Node 0.8.15
 
 ## Mac
 - OSX Lion
