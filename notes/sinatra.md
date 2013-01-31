@@ -17,3 +17,8 @@ $ gem install sinatra
 ```
 
 ## Create a web page with Sinatra
+
+### Sinatra Gems
+
+- `shotgun`
+- `sinatra/reload`
