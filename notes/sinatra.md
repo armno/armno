@@ -1,6 +1,6 @@
 # Sinatra - A Ruby Framework
 
-Sinatra is a lightweigt Ruby web framework.
+Sinatra is a lightweigth Ruby web framework.
 
 ## Installing Sinatra
 
