@@ -18,7 +18,29 @@ $ gem install sinatra
 
 ## Create a web page with Sinatra
 
+### Default route
+
+create a file `app.rb`
+
+```ruby
+require "sinatra"
+
+get / do
+  "Hello from Sinatra"
+end
+```
+
+then run Sinatra using
+
+```sh
+$ ruby app.rb 
+```
+
+View the app at `http://localhost:4567`
+
+
 ### Sinatra Gems
 
 - `shotgun`
 - `sinatra/reload`
+- `haml`
