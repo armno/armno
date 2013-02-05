@@ -76,7 +76,7 @@ $.each(users, function(user, index) {
 - create a template block
 
 ```html
-<script type="text/html" id="user-template">
+<script type="text/template" id="user-template">
 	<% _.each(users, function(user, index) { %>
     <li>
     	<a href="/users/<%= user.id %>">
@@ -89,7 +89,7 @@ $.each(users, function(user, index) {
 
 - render the template by passing an object to `_.template` function
 
-```javascript
+```html
 <script>
 $(function(){
 	var users = [
