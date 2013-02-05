@@ -92,27 +92,7 @@ $.each(users, function(user, index) {
 ```html
 <script>
 $(function(){
-	var users = [
-		{
-    		"id" : 1,
-	        "name" : "armno",
-	        "fb_id" : "100000323120002",
-	        "email" : "arm@armno.in.th"
-		},
-		{
-	    	"id" : 2,
-	        "name" : "george",
-    	    "fb_id" : "10000314890544",
-    	    "email" : "george@gmail.com"
-	    },
-	    {
-    		"id" : 3,
-        	"name" : "peach",
-	        "fb_id" : "770098097",
-    	    "email" : "peach@live.com"
-	    }
-	];
-    
+	// ...
 	var template = $('#user-template').html(),
     	renderedHtml = _.template(template, {
         	users : users
@@ -121,6 +101,68 @@ $(function(){
    $('#users-list').html(renderedHtml);
 });
 </script>
+```
+
+### all code
+
+```html
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<title>Underscore Template</title>
+    </head>
+    <body>
+		<ul id="users-list">
+		</ul>
+
+		<script type="text/template" id="user-template">
+			<% _.each(users, function(user, index) { %>
+    		<li>
+    			<a href="/users/<%= user.id %>">
+        			<img src="//graph.facebook.com/<%= user.fb_id %>/picture" alt="<%= user.name %> profile picture">
+        		</a>
+    		</li>
+   			<% } %> 
+		</script>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
+
+		<script>
+		$(function() {
+			var users = [
+				{
+    				"id" : 1,
+	        		"name" : "armno",
+	        		"fb_id" : "100000323120002",
+	        		"email" : "arm@armno.in.th"
+				},
+				{
+	    			"id" : 2,
+	        		"name" : "george",
+    	    		"fb_id" : "10000314890544",
+    	    		"email" : "george@gmail.com"
+	    		},
+	    		{
+    				"id" : 3,
+        			"name" : "peach",
+	        		"fb_id" : "770098097",
+    	    		"email" : "peach@live.com"
+	    		}
+			];
+    
+    		var template = $('#user-template').html(),
+    			renderedHtml = _.template(template, {
+        			users : users
+        		});
+        
+   			$('#users-list').html(renderedHtml);
+    
+		});
+		</script>
+    </body>
+</html>
 ```
 
 fin.
