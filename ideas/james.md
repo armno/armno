@@ -1,4 +1,4 @@
-# James
+# James - deprecated
 
 A command-line app which creates a VirtualHost in seconds in Ubuntu.
 

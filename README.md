@@ -1,9 +1,9 @@
 armno
 =====
 
-Hi, My name is ArmNo. I'm a web developer at Chiang Mai, Thailand. My blog is at [armno.in.th](http://armno.in.th).
+Hi, My name is Armno. I'm a web developer at Chiang Mai, Thailand. My blog is at [armno.in.th](http://armno.in.th).
 
-This is a collection of my ideas/documented dreams. You might found nothing here but a bunch of `.md` documents. (I love MarkDown, just so you know). File editing is usually done in [prose.io](http://prose.io). I recommend it if you love to edit MarkDown files online.
+This is a collection of my ideas/dreams. You might found nothing here but a bunch of `.md` documents. (I love MarkDown, just so you know). File editing is usually done in [prose.io](http://prose.io). I recommend it if you love to edit MarkDown files online.
 
 Another use is using Issues as a another way to contact. Create an Issue if you want something from me.
 
