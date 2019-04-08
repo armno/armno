@@ -7,6 +7,6 @@ This is a collection of my ideas/dreams. You might found nothing here but a bunc
 
 Another use is using Issues as a another way to contact. Create an Issue if you want something from me.
 
-By the way, I'm [@armno](https://twitter.com/armno) on Twitter. Fire me a tweet if you want. (but please don't send me a direct message. I never read those shits.)
+By the way, I'm [@armno](https://twitter.com/armno) on Twitter. ~Fire me a tweet if you want~. I'm not active on Twitter anymore.
 
 I'm also `armno` everywhere else but LinkedIn. :\
